@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.conatiner {
+    width: 100vw;
+    height: 100vh;
+    background-color: tomato;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app {
+    width: 540px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 25px 30px;
+}
+
+.app h2 {
+    color: rgb(83, 80, 80);
+}
+
+.row {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 30px;
+    padding-left: 20px;
+    background-color: aliceblue;
+}
+
+input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+
+}
+
+button {
+    border: none;
+    outline: none;
+    padding: 16px 50px;
+    background: tomato;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+}
+
+ul li {
+    margin-top: 15px;
+    list-style: none;
+    padding: 10px 8px 12px 50px;
+    cursor: pointer;
+    position: relative;
+
+}
+
+ul li.checked {
+    color: #555;
+    text-decoration: line-through;
+
+}
+
+ul li span {
+    position: absolute;
+    right: 0;
+    top: 4px;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    text-align: center;
+    line-height: 40px;
+
+
+}
+
+ul li span:hover {
+    background: #edeef0;
+}
