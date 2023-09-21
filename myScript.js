@@ -6,7 +6,6 @@ let addTasks = () => {
     if (input.value === "") {
         alert("please add some task")
     }
-
     else {
         let li = document.createElement("li")
         li.innerHTML = input.value
@@ -36,7 +35,7 @@ const saveTasks = () => {
 }
 
 const getTasks = () => {
-    listItems.innerHTML=localStorage.getItem("Tasks")
+    listItems.innerHTML = localStorage.getItem("Tasks")
 }
 
 getTasks()
